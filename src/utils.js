@@ -35,3 +35,14 @@ export function slugify(text) {
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-");
 }
+
+/**
+ * Subtract one number from another.
+ *
+ * @param {number} a The number to subtract from.
+ * @param {number} b The number to subtract.
+ * @returns {number} The result of a - b.
+ */
+export function subtract(a, b) {
+  return a - b;
+}
